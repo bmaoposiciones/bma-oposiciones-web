@@ -109,7 +109,7 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) => {
                   value={formData.name}
                   onChange={(e) => setFormData({...formData, name: e.target.value})}
                   className="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-4 text-white focus:ring-2 focus:ring-[#ff2d21] outline-none font-bold"
-                  placeholder="Ej: Alvaro Buendía"
+                  placeholder="Introduce tu nombre y apellidos"
                 />
               </div>
 
